@@ -1,16 +1,3 @@
-# системный мусор
 .DS_Store
-Thumbs.db
-desktop.ini
-
-# служебные каталоги
-.idea/
-.vscode/
-node_modules/
 __pycache__/
 *.pyc
-
-# локальные черновики
-*.zip
-tmp/
-draft_*
