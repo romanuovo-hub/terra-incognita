@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Terra Incognita — материалы</title>
+<style>
+  :root{--bg:#14110e;--panel:#1d1915;--line:#3a3128;--cream:#EFE4C8;--muted:#b6a98d;--red:#BE4131}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:radial-gradient(circle at 50% -10%,#241d16 0%,var(--bg) 55%);
+       color:var(--cream);font:16px/1.55 "Georgia","Times New Roman",serif;padding:28px 18px 56px}
+  .wrap{max-width:760px;margin:0 auto}
+  h1{font-size:30px;margin:0 0 6px;letter-spacing:.5px}
+  .sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+  a{color:var(--cream)}
+  .card{display:block;text-decoration:none;background:var(--panel);border:1px solid var(--line);
+        border-radius:12px;padding:18px 20px;margin:0 0 14px;transition:border-color .15s,transform .15s}
+  .card:hover,.card:focus{border-color:var(--red);transform:translateY(-1px)}
+  .card b{display:block;font-size:19px;margin-bottom:4px}
+  .card span{color:var(--muted);font-size:14px}
+  .tag{display:inline-block;margin-top:10px;font:12px/1 ui-monospace,Menlo,monospace;letter-spacing:.08em;
+       text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:4px 7px}
+  .back{display:inline-block;margin-top:22px;border:1px solid var(--line);border-radius:10px;
+        padding:11px 18px;text-decoration:none}
+  .back:hover{border-color:var(--red)}
+  footer{margin-top:34px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Terra Incognita — материалы</h1>
+  <div class="sub">Редакция v48 · печатные материалы к настольной игре</div>
+
+  <a class="card" href="assets/terra-incognita-rules-v48.pdf" download>
+    <b>Правила, редакция 48</b>
+    <span>Полный свод правил с иллюстрациями: канон v48, гарнизоны, Вербовщик, достопримечательности, победа в 50 ПО.</span>
+    <span class="tag">PDF · 53 страницы · 6,2 МБ</span>
+  </a>
+
+  <a class="card" href="assets/terra-incognita-token-catalog.pdf" download>
+    <b>Каталог логотипов и жетонов</b>
+    <span>Все жетоны игры по цветам игроков: местности, жители, постройки, армии, охранники, события.</span>
+    <span class="tag">PDF · 9 страниц · 8,6 МБ</span>
+  </a>
+
+  <a class="card" href="./">
+    <b>Играть в браузере</b>
+    <span>Соло-партия против ИИ. Открывается на телефоне и на компьютере, интернет после загрузки не нужен.</span>
+    <span class="tag">HTML · офлайн</span>
+  </a>
+
+  <a class="back" href="./">← Вернуться к игре</a>
+
+  <footer>Terra Incognita · канон v48 · материалы распространяются вместе с игрой</footer>
+</div>
+</body>
+</html>
